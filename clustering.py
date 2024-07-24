@@ -8,7 +8,7 @@ from scipy.cluster.vq import kmeans2
 from sklearn.decomposition import PCA
 from tqdm import tqdm
 
-
+# Performs Principal Component Analysis (PCA) on the input embeddings to reduce their dimensionality.
 def calculate_pca(embeddings, dim=16):
     print("Calculating PCA")
     pca = PCA(n_components=dim)
@@ -16,7 +16,7 @@ def calculate_pca(embeddings, dim=16):
     print("PCA calculating done!")
     return pca_embeddings
 
-
+# Performs k-means clustering on the input embeddings.
 def calculate_kmeans(embeddings, k):
     print("KMeans processing...")
     centroid, labels = kmeans2(data=embeddings, k=k, minit="points")
@@ -38,10 +38,10 @@ def create_dir(directory):
 
 
 # Load embeddings
-embeddings, image_paths = load_embeddings("embeddings/bird_embeddings.csv")
+embeddings, image_paths = load_embeddings("embeddings/horse_embeddings.csv")
 pca_dim = 16
 cluster_range = 4
-project_name = "bird"
+project_name = "horse"
 
 # Embeddings to PCA
 pca_embeddings = calculate_pca(embeddings, dim=pca_dim)
