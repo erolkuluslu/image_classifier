@@ -1,6 +1,8 @@
 ﻿# image_classifier
 # Image Processing and Model Training Project
 
+![image](https://github.com/user-attachments/assets/a258e7c2-1c94-4cd6-890b-5d1d53633277)
+
 ![image](https://github.com/user-attachments/assets/affd05d3-906d-4b24-9ba3-ab0b3a3f1034)
 
 
