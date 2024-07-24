@@ -1,6 +1,9 @@
 ﻿# image_classifier
 # Image Processing and Model Training Project
 
+![image](https://github.com/user-attachments/assets/affd05d3-906d-4b24-9ba3-ab0b3a3f1034)
+
+
 This project provides a comprehensive solution for image processing, smart cropping, image embeddings, feature extraction, dataset cleaning, and model training and inference using PyTorch. Additionally, it includes a Gradio-based web application for easy interaction with the trained model.
 
 ## Features
